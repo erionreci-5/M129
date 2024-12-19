@@ -9,7 +9,7 @@
  
 **Netzwerkplan**
  
-![Netzwerkplan](P1_1_Filius_800.png)
+![Netzwerkplan](Bilder/P1_1_Filius_800.jpg)
  
 ## Vorgaben:
  
@@ -31,13 +31,13 @@ Das Konzept sieht wie folgt aus:
 | **Netz 1** | 160.160.250.0   | 255.255.255.128 | 160.160.250.1   | 160.160.250.126 | 160.160.250.127 |
 | **Netz 2** | 160.160.250.128 | 255.255.255.128 | 160.160.250.129 | 160.160.250.254 | 160.160.250.255 |
  
-Ebenfalls ersichtlich ist das Konzept unter [folgendem Excel File.](P1_1_Netzwerk-Einteilung.xlsx)
+Ebenfalls ersichtlich ist das Konzept unter [folgendem Excel File.](Bilder/P1_1_Netzwerk-Einteilung.xlsx)
  
 *Router hat die erste IP
  
 ### Filius File
  
-Das funktionierende Filius File finden Sie [hier.](P1_1_Vorlage.fls)
+Das funktionierende Filius File finden Sie [hier.](Bilder/P1_1_Vorlage.fls)
  
 Geräte sind wie folgt konfiguriert:
  
