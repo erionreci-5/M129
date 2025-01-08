@@ -12,7 +12,7 @@
 **Netzwerkplan**
 
 
-![Netzwerkplan](P1_2_Filius_800.png)
+![Netzwerkplan](https://github.com/erionreci-5/M129/blob/main/Bilder/P1_2_Filius_800.jpg)
 
 
 ## Vorgaben:
