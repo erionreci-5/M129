@@ -47,7 +47,7 @@ So sieht das Konzept aus:
 ### Filius File
 
 
-Das funktionierende Filius File finden Sie genau [hier.](Bilder/P1_2_Lösung.png)
+Das funktionierende Filius File finden Sie genau [hier.](Bilder/Screenshot 2025-01-08 152932.png)
 
 
 Geräte sind wie folgt konfiguriert:
