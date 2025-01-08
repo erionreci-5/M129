@@ -36,7 +36,7 @@ Das Konzept sieht wie folgt aus:
 | **Netz 8** | 170.11.83.56 | 255.255.255.248 | 170.11.83.57 | 170.11.83.62 | 170.11.83.63 |
 
 
-Ebenfalls ersichtlich ist das Konzept unter [folgendem Excel File.](P1_4_Netzwerk-Einteilung.xlsx)
+Ebenfalls ersichtlich ist das Konzept unter [folgendem Excel File.](https://github.com/erionreci-5/M129/blob/main/Bilder/P1_4_Netzwerk-Einteilung.xlsx)
 *Router hat die erste IP
 
 
