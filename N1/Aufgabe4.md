@@ -10,7 +10,7 @@ Beim Re-Design haben sich mindestens **10 Fehler** eingeschlichen. ...Vielleicht
 
 
 **Netzwerkplan**
-![Netzwerkplan](P1_4_Filius_800.png)
+![Netzwerkplan](https://github.com/erionreci-5/M129/blob/main/Bilder/P1_4_Filius_800.jpg)
 
 
 ## Auftrag
