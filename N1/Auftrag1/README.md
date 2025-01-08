@@ -9,7 +9,7 @@
  
 **Netzwerkplan**
  
-![Netzwerkplan](Bilder/P1_1_Filius_800.jpg)
+[Netzwerkplan](Bilder/P1_1_Filius_800.jpg)
  
 ## Vorgaben:
  
