@@ -41,7 +41,7 @@ Ebenfalls ersichtlich ist das Konzept unter [folgendem Excel File.](https://gith
 
 
 ### Filius File
-Das funktionierende Filius File finden Sie [hier.](P1_4_FEHLRER.fls)
+Das funktionierende Filius File finden Sie [hier.](https://github.com/erionreci-5/M129/blob/main/Bilder/P1_4_FEHLRER.fls)
 
 
 **Gefundene Fehler (und Korrekturen) für die einzelnen Aufgaben**
@@ -49,25 +49,23 @@ Das funktionierende Filius File finden Sie [hier.](P1_4_FEHLRER.fls)
 
 | **Gerät** | **Gefundener Fehler, ausgeführte Korrektur**                                        |
 |-----------|-------------------------------------------------------------------------------------|
-| PC-3      | Gateway falsch: 170.11.82.1, geändert zu 170.11.83.1                                |
-| PC-10     | Falsche IP 170.11.83.11, geändert zu 170.11.83.10                                   |
-| PC-10     | Falsches Gateway: 170.11.83.8, geändert zu 170.11.83.9                              |
-| PC-26     | Falsche Netzmaske: 255.252.255.248, geändert zu 255.255.255.248                     |
-| PC-27     | Falsches Gateway: 107.11.83.25, geändert zu 170.11.83.25                            |
-| PC-43     | Gateway fehlt, geändert zu 170.11.83.41                                             |
-| PC-50     | Falsche IP-Adresse: 170.11.83.250, geändert zu 170.11.83.50                         |
-| PC-51     | Falsche Netzmaske: 255.255.248.0, geändert zu 255.255.255.248                       |
-| PC-59     | Falsches Gateway: 170.11.83.59, geändert zu 170.11.83.57                            |
 | RT-1      | Falsche IP Interface Subnetz 4: 170.11.83.27, geändert zu 170.11.83.25              |
-| RT-1      | Falsche Netzmaske Interface Subnetz 4: 255.255.252.248, geändert zu 255.255.255.248 |
+| PC-3      | Gateway von PC3 war falsch:Gateway falsch: 170.11.82.1, geändert zu 170.11.83.1     |
+| PC-10     | PC10 & 11 gleiche IP: Falsche IP 170.11.83.11, geändert zu 170.11.83.10             |
+| PC-10     | Gateway von PC10 ist falsch: Falsches Gateway: 170.11.83.8, geändert zu 170.11.83.9 |
+| PC-26     | PC26 falsche Netzmaske: 255.252.255.248, geändert zu 255.255.255.248                |
+| PC-27     | PC27 hat ein falschen Gateway: 107.11.83.25, geändert zu 170.11.83.25               |
+| PC-43     | Gateway fehlt bei PC43, geändert zu 170.11.83.41                                    |
+| PC-50     | Falsche IP-Adresse bei PC50: 170.11.83.250, geändert zu 170.11.83.50                |
+| PC-51     | Falsche Netzmaske bei PC51: 255.255.248.0, geändert zu 255.255.255.248              |
+| PC-59     | Falsches Gateway: 170.11.83.59, geändert zu 170.11.83.57                            |
+
 
 
 **Fehlersuche Journal**
 
 
-| **Ausgeführter Test** | **Beobachtetes Resultat/ (Ausgeführte Korrektur)**                                         |
-|-----------------------|--------------------------------------------------------------------------------------------|
-| Test 1                | Alle IPs überprüft, alle Fehler verbessert (Tabelle oben)                                  |
-| Test 2                | Von PC02 alle anderen gepingt, Subnetz 2 funktionierte nicht sonst alles                   |
-| Test 3                | Subnetz 2 nochmal genau angeschaut, Fehler wurde vorhin schon gefunden, aber nicht behoben |
-Das funktionierende Filius File finden Sie [hier.](P1_4_FEHLRER.fls)
+| **Ausgeführter Test** | **Beobachtetes Resultat/ (Ausgeführte Korrektur)**                                                          |
+|-----------------------|-------------------------------------------------------------------------------------------------------------|
+| Test 1                | Alle IPs überprüft, alle Fehler verbessert                                                                  |
+| Test 2                | Da vorhin auf dem RT01 Subnetz 4 fehler gab, habe ich versucht vom PC02 auf den PC26 zu pingen: Erfolgreich |
