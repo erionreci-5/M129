@@ -43,7 +43,7 @@ Ebenfalls ersichtlich ist das Konzept unter [folgendem Excel File.](https://gith
 *Router hat die erste IP im Subnet
 ### Filius File
 
-Das funktionierende Filius File finden Sie [hier.](https://github.com/erionreci-5/M129/blob/main/Bilder/P1_3_Vorlage.fls)
+Das funktionierende Filius File finden Sie genau [hier.](https://github.com/erionreci-5/M129/blob/main/Bilder/P1_3_Vorlage.fls)
 
 Geräte sind wie folgt konfiguriert:
 
