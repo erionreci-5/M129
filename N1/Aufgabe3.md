@@ -12,7 +12,7 @@
 **Netzwerkplan**
 
 
-![Netzwerkplan]()
+![Netzwerkplan](https://github.com/erionreci-5/M129/blob/main/Bilder/P1_3_Filius_800.jpg)
 
 
 ## Vorgaben:
@@ -37,10 +37,13 @@ Das Konzept sieht wie folgt aus:
 | **Netz 3** | 25.30.120.32 | 255.255.255.240 | 25.30.120.33 | 25.30.120.46 | 25.30.120.47 |
 | **Netz 4** | 25.30.120.48 | 255.255.255.240 | 25.30.120.49 | 25.30.120.62 | 25.30.120.63 |
 
+Ebenfalls ersichtlich ist das Konzept unter [folgendem Excel File.](https://github.com/erionreci-5/M129/blob/main/Bilder/P1_1_Netzwerk-Einteilung.xlsx)
+
+
 *Router hat die erste IP im Subnet
 ### Filius File
 
-
+Das funktionierende Filius File finden Sie [hier.](https://github.com/erionreci-5/M129/blob/main/Bilder/P1_3_Vorlage.fls)
 
 Geräte sind wie folgt konfiguriert:
 
