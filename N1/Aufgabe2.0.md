@@ -39,12 +39,14 @@ So sieht das Konzept aus:
 | **Netz 7** | 59.136.34.192 | 255.255.255.224 | 59.136.34.193 | 59.136.34.222 | 59.136.34.223 |
 | **Netz 8** | 59.136.34.224 | 255.255.255.224 | 59.136.34.225 | 59.136.34.254 | 59.136.34.255 |
 
-
+Ebenfalls ersichtlich ist das Konzept unter anderem auf dem [folgendem Excel File.](https://github.com/erionreci-5/M129/blob/main/Bilder/P1_2_Netzwerk-Einteilung.xlsx)
 
 *Router hat immer die erste IP im Subnet
 
 
 ### Filius File
+Das funktionierende Filius File finden Sie [hier.](https://github.com/erionreci-5/M129/blob/main/Bilder/P1_2_Vorlage.fls)
+
 
 Geräte sind wie folgt konfiguriert:
 
