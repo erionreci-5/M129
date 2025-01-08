@@ -49,3 +49,8 @@ Geräte sind wie folgt konfiguriert:
 | Router Interface 02 | 160.160.250.129 | 255.255.255.128 |
 | PC11                | 160.160.250.130 | 255.255.255.128 |
 | PC12                | 160.160.250.131 | 255.255.255.128 |
+
+### Quellen
+- Brauchte ich keine
+
+
