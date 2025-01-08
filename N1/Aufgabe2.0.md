@@ -46,11 +46,6 @@ So sieht das Konzept aus:
 
 ### Filius File
 
-
-Ein Bild, dass dies alles funktioniert hatfinden Sie genau 
-![hier.](Bilder/Screenshot 2025-01-08 152932.png)
-
-
 Geräte sind wie folgt konfiguriert:
 
 
@@ -130,16 +125,16 @@ Geräte sind wie folgt konfiguriert:
 
 ### Weitere formative Fragen, auf die in der Doku eingegangen werden kann:
 - [x] Wieviele freie IP-Adressen gibt es in der Abteilung **Einkauf**
-  - In der Abteilung Einkauf hat es, sowie in allen anderen Abteilungen auch, 30 freie IPs inkl. den beiden PCs und dem Router.
+  - In der Abteilung Einkauf hat es, sowie in allen anderen Abteilungen auch, 30 freie IPs inkl. den beiden PCs und dem Router. Inklusive Broadcast-Adresse.
 - [x] Wo liegt die Grenze bzgl. Zuweisung der IPs an Mitarbeiter? (Pro Abteilung)
   - Jede Abteilung hat 29 IPs für die Mitarbeiter frei.
 - [x] Ist dieses Netzwerk-Design realistisch? (Kritische Begründung)
-  - Es gibt einen Single Point of Failure. Dies wäre der Router, wenn dieser ausfällt, gibt es keine Netzwerkverbindung mehr zwischen allen Geräten.
-  - Es ist zu wenig skalierbar. Falls mehr Geräte hinzugefügt werden sollten, kann es sein das die IPs irgendwann ausgehen.
+  - Es ist zu wenig skalierbar. Falls mehr Geräte hinzugefügt werden sollten, kann es sein das die IPs irgendwann ausgehen. 
+  - Ich glaube nicht, dass eine Firma 8 Subnetze nur mit einem Router verbinden möchte.
   - Da alle Geräte über den gleichen Router gehen, ist eine hohe Netzwerklatenz möglich.
   - **Dieses Netzwerk ist nicht realistisch**
 - [x] Gibt es Verbesserungsvorschläge bzgl. Netzwerk-Design?
   - Einen zweiten Router einbauen für Redundanz
 - [x] Welche zusätzlichen Informationen wären nützlich, um für dieses Netzwerk-Design einen Optimierungsvorschlag auszuarbeiten?
-  - Wieviel Netzwerkverkehr habe ich?
+  - Wielange kann mein Router das mithalten
   - Wie sieht es für die Zukunft aus?
