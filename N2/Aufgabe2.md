@@ -9,7 +9,7 @@
 
 **Netzwerkplan**
 
-![Netzwerkplan](P2_2_netzwerkplan_800.png)
+![Netzwerkplan]([P2_2_netzwerkplan_800.png](https://github.com/erionreci-5/M129/blob/main/Bilder/P2_2_netzwerkplan_800.jpg))
 
 
 **Vorgaben:**
