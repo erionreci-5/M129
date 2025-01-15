@@ -111,3 +111,5 @@ Geräte sind wie folgt konfiguriert:
 - [x] Ist ein mögliches Wachstum der Firma berücksichtigt?
   - Ein zugrosses Wachstum ist nicht berücksichtig, aber ein kleineres wäre möglich
 
+### Quellen
+- Google bzg. Next hop
