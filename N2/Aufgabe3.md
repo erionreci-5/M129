@@ -37,16 +37,14 @@ Hier noch das Diagramm Visio
 
 Das Konzept sieht wie folgt aus:
 
-| | Netz ID | Subnet | Erste IP* | Letzte IP | Broadcast |
-|-|---------|--------|----------|-----------|-----------|
-| **Netz 1** | 34.112.98.0 | 255.255.255.192 | 34.112.98.1 | 133.95.48.126 | 133.95.48.127 |
-| **Netz 2** | 34.112.98.64 | 255.255.255.240 | 34.112.98.65 | 34.112.98.78 | 34.112.98.79 |
+|            | Netz ID       | Subnet          | Erste IP*     | Letzte IP     | Broadcast     |
+|------------|---------------|-----------------|---------------|---------------|---------------|
+| **Netz 1** | 34.112.98.0   | 255.255.255.192 | 34.112.98.1   | 133.95.48.126 | 133.95.48.127 |
+| **Netz 2** | 34.112.98.64  | 255.255.255.240 | 34.112.98.65  | 34.112.98.78  | 34.112.98.79  |
 | **Netz 3** | 34.112.98.252 | 255.255.255.252 | 34.112.98.253 | 34.112.98.254 | 34.112.98.255 |
 
 
-Ebenfalls ersichtlich ist das Konzept unter [folgendem Excel File.](P2_3_Netzwerk-Einteilung.xlsx)
-
-*Router hat die erste IP
+Ebenfalls ersichtlich ist das Konzept auch unter dem [folgendem Excel File.](P2_3_Netzwerk-Einteilung.xlsx)
 
 ### CISCO Packet Tracer File
 
@@ -56,23 +54,23 @@ Geräte sind wie folgt konfiguriert:
 
 
 #### 1. Subnetz - Produktion
-| Gerät | IP | Subnetmask |
-|-----------|----------|---------|
+| Gerät               | IP          | Subnetmask      |
+|---------------------|-------------|-----------------|
 | Router Interface 01 | 34.112.98.1 | 255.255.255.192 |
-| PC-P01 | 34.112.98.2 | 255.255.255.192 |
-| PC-P02 | 34.112.98.3 | 255.255.255.192 |
+| PC-P01              | 34.112.98.2 | 255.255.255.192 |
+| PC-P02              | 34.112.98.3 | 255.255.255.192 |
 
 #### 2. Subnetz - Verkauf
-| Gerät | IP | Subnetmask |
-|-----------|----------|---------|
+| Gerät               | IP           | Subnetmask      |
+|---------------------|--------------|-----------------|
 | Router Interface 02 | 34.112.98.65 | 255.255.255.240 |
-| PC-V01 | 34.112.98.66 | 255.255.255.240 |
-| PC-V02 | 34.112.98.67 | 255.255.255.240 |
+| PC-V01              | 34.112.98.66 | 255.255.255.240 |
+| PC-V02              | 34.112.98.67 | 255.255.255.240 |
 
 #### 3. Subnetz - Transfer
-| Gerät | IP | Subnetmask |
-|-----------|----------|---------|
-| RT-01 | 34.112.98.253 | 255.255.255.252 |
+| Gerät  | IP            | Subnetmask      |
+|--------|---------------|-----------------|
+| RT-01  | 34.112.98.253 | 255.255.255.252 |
 | RT-ISP | 34.112.98.254 | 255.255.255.252 |
 
 #### Routing Table
@@ -87,15 +85,15 @@ Geräte sind wie folgt konfiguriert:
 
 | Netzwerk    | Mask            | Next Hop      |
 |-------------|-----------------|---------------|
-|  34.112.98.0  |  255.255.255.0  | 34.112.98.253 | 
+|34.112.98.0  |  255.255.255.0  | 34.112.98.253 | 
 
 #### Netze
 
-| Netz | Genutzte IPs | Freie IPs |
-|-----|----|----|
-| Produktion | 3 | 59 |
-| Verkauf | 3 | 11 |
-| Transfer | 2 | 0 |
+| Netz       | Genutzte IPs | Freie IPs |
+|------------|--------------|-----------|
+| Produktion | 3            | 59        |
+| Verkauf    | 3            | 11        |
+| Transfer   | 2            | 0         |
 
 
 ### Check: Topics, die in der Doku festgehalten sein sollten:
