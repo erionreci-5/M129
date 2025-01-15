@@ -125,10 +125,11 @@ Geräte sind wie folgt konfiguriert:
 
 ### Weitere formative Fragen, auf die in der Doku eingegangen werden kann:
 - [x] Wieviele freie IP-Adressen gibt es in der Abteilung **Marketing**?
+  - In der Marketing sowie auch in den anderen Abteilungen gibt es 123 freie IPs
 - [x] Eine neue Mitarbeiterin wird in der Abteilung **Marketing** eingestellt. Welche Netzwerkkonfiguration erhält sie?
-  - Eine neue Mitarbeiterin in der Abteilung Marketing würde folgende IP erhalten: 37.105.97.132
+  - Eine neue Mitarbeiterin in der Abteilung Marketing würde die folgende IP erhalten: 37.105.97.132
 - [x] Ist das Netzwerk-Design sinnvoll?
   - Dieses Netzwerk hat viel zu viele IPs. Ein Netzwerk mit weniger IPs wäre sinnvoller
 - [x] Gibt es Verbesserungsvorschläge bzgl. Netzwerk-Design?
-  - Einen zusätzlichen Router für die Redundanz
+  - Einen zusätzlichen Router für die Redundanz oder auch mehrere.
 
