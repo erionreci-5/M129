@@ -48,7 +48,7 @@ Ebenfalls ersichtlich ist das Konzept auch unter dem [folgendem Excel File.](htt
 
 ### CISCO Packet Tracer File
 
-Das funktionierende Packet Tracer File finden Sie [hier.]([P2_3_Vorlage.pkt](https://github.com/erionreci-5/M129/blob/main/Bilder/P2_3_Vorlage_Erion.pkt))
+Das Packet Tracer File finden Sie [hier.]([P2_3_Vorlage.pkt](https://github.com/erionreci-5/M129/blob/main/Bilder/P2_3_Vorlage_Erion.pkt))
 
 Geräte sind wie folgt konfiguriert:
 
@@ -107,6 +107,7 @@ Geräte sind wie folgt konfiguriert:
 
 ### Weitere formative Fragen, auf die in der Doku eingegangen werden kann:
 - [x] Wieviele freie IP-Adressen gibt es in der Abteilung **Verkauf**
+  - In dieser Abteilung gibt es genau noch 11 freie IPs
 - [x] Ist ein mögliches Wachstum der Firma berücksichtigt?
   - Ein zugrosses Wachstum ist nicht berücksichtig, aber ein kleineres wäre möglich
 
