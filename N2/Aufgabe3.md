@@ -44,7 +44,7 @@ Das Konzept sieht wie folgt aus:
 | **Netz 3** | 34.112.98.252 | 255.255.255.252 | 34.112.98.253 | 34.112.98.254 | 34.112.98.255 |
 
 
-Ebenfalls ersichtlich ist das Konzept auch unter dem [folgendem Excel File.](P2_3_Netzwerk-Einteilung.xlsx)
+Ebenfalls ersichtlich ist das Konzept auch unter dem [folgendem Excel File.](https://github.com/erionreci-5/M129/blob/main/Bilder/P2_3_Netzwerk-Einteilung.xlsx)
 
 ### CISCO Packet Tracer File
 
