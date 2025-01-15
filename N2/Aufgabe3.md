@@ -48,7 +48,7 @@ Ebenfalls ersichtlich ist das Konzept auch unter dem [folgendem Excel File.](htt
 
 ### CISCO Packet Tracer File
 
-Das funktionierende Packet Tracer File finden Sie [hier.](P2_3_Vorlage.pkt)
+Das funktionierende Packet Tracer File finden Sie [hier.]([P2_3_Vorlage.pkt](https://github.com/erionreci-5/M129/blob/main/Bilder/P2_3_Vorlage_Erion.pkt))
 
 Geräte sind wie folgt konfiguriert:
 
