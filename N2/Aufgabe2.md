@@ -35,7 +35,7 @@ Das Konzept sieht wie folgt aus:
 | **Netz 7** | 37.105.99.0   | 255.255.255.128 | 37.105.99.1   | 37.105.99.126 | 37.105.99.127 |
 | **Netz 8** | 37.105.99.128 | 255.255.255.128 | 37.105.99.129 | 37.105.99.254 | 37.105.99.255 |
 
-Ebenfalls ersichtlich ist das Konzept unter [folgendem Excel File.](P2_2_Netzwerk-Einteilung.xlsx)
+Ebenfalls ersichtlich ist das Konzept auch unter dem [folgendem Excel File.](https://github.com/erionreci-5/M129/blob/main/Bilder/P2_2_Netzwerk-Einteilung.xlsx)
 
 *Router hat die erste IP
 
