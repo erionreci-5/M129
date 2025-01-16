@@ -16,7 +16,7 @@
 
 **Netzwerkplan**
 
-![Netzwerkplan](P2_4_netzwerkplan_800.png)
+![Netzwerkplan](https://github.com/erionreci-5/M129/blob/main/Bilder/P2_4_netzwerkplan_800.png)
 
 
 **Vorgaben:**
@@ -28,7 +28,7 @@ Folgende Bedingungen sind vorgegeben und **müssen** eingehalten werden:
 
 ### Diagramm Visio
 
-![Visio Diagramm](Visio.png)
+![Visio Diagramm](https://github.com/erionreci-5/M129/blob/main/Bilder/Visio.png)
 
 ### Konzept
 
@@ -43,9 +43,7 @@ Das Konzept sieht wie folgt aus:
 | **Netz 5** | 219.60.31.252 | 255.255.255.252 | 219.60.31.253 | 219.60.31.254 | 219.60.31.255 |
 
 
-Ebenfalls ersichtlich ist das Konzept unter [folgendem Excel File.](P2_4_Netzwerk-Einteilung.xlsx)
-
-*Router hat die erste IP
+Ebenfalls ersichtlich ist das Konzept auch unter dem [folgendem Excel File.](https://github.com/erionreci-5/M129/blob/main/Bilder/P2_4_Netzwerk-Einteilung.xlsx)
 
 ### CISCO Packet Tracer File
 
@@ -104,13 +102,13 @@ Geräte sind wie folgt konfiguriert:
 
 #### Netze
 
-| Netz | Genutzte IPs | Freie IPs |
-|-----|----|----|
-| Betrieb | 3 | 123 |
-| Einkauf | 3 | 123 |
-| Verkauf | 3 | 27 |
-| GL | 3 | 11 |
-| Transfer | 2 | 0 |
+| Netz    | Genutzte IPs | Freie IPs |
+|---------|--------------|-----------|
+| Betrieb | 3            | 123       |
+| Einkauf | 3            | 123       |
+| Verkauf | 3            | 27        |
+| GL      | 3            | 11        |
+| Transfer| 2            | 0         |
 
 ### Check: Topics, die in der Doku festgehalten sein sollten:
 
@@ -120,3 +118,11 @@ Geräte sind wie folgt konfiguriert:
 - [x] Anteil oder Anzahl genutzter und freier IP-Adressen pro Subnetz.
 - [x] Die Konfigurationen sämtlicher Geräte.
 - [x] Beweis der Funktionalität (Ping, Datentransfer).
+
+### Weitere formative Fragen, auf die in der Doku eingegangen werden kann:
+- [x] Wieviele freie IP-Adressen gibt es in der Abteilung **Betrieb**?
+- [x] Ist ein mögliches Wachstum der Firma berücksichtigt?
+- [x] Ist das Netzwerk-Design sinnvoll?
+- [x] Gibt es Verbesserungsvorschläge bzgl. Netzwerk-Design?
+- [x] Welche zusätzlichen Informationen wären nützlich, um für dieses Netzwerk-Design einen Optimierungsvorschlag auszuarbeiten?
+
