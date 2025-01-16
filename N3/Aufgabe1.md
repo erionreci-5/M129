@@ -45,11 +45,11 @@ Das Netzwerklayout ist für alle Aufgaben identisch:
 
 ## Gelöste Files für das Troubleshooting
 
-1. [Netzwerk-Fehler-1](./Gelöste%20Files/Netzwerk-Fehler-1-gelöst.fls)
-2. [Netzwerk-Fehler-2](./Gelöste%20Files/Netzwerk-Fehler-2-gelöst.fls)
-3. [Netzwerk-Fehler-3](./Gelöste%20Files/Netzwerk-Fehler-3-gelöst.fls)
-4. [Netzwerk-Fehler-4](./Gelöste%20Files/Netzwerk-Fehler-4-gelöst.fls)
-5. [Netzwerk-Fehler-5](./Gelöste%20Files/Netzwerk-Fehler-5-gelöst.fls)
+1. [Netzwerk-Fehler-1]()
+2. [Netzwerk-Fehler-2]()
+3. [Netzwerk-Fehler-3]()
+4. [Netzwerk-Fehler-4]()
+5. [Netzwerk-Fehler-5]()
 
 ### Quellen
 - Fragen an Gabriel Marki
