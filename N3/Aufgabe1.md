@@ -8,7 +8,7 @@
 Sie erhalten mehrere virtuelle Netzwerke als Filiusdateien. In den Netzwerken ist jeweils ein Fehler vorhanden.  
 Das Netzwerklayout ist für alle Aufgaben identisch:
 
-![Netzwerkplan](netzwerk_800.png)
+![Netzwerkplan](https://github.com/erionreci-5/M129/blob/main/Bilder/netzwerk_800.png)
 
 ## Auftrag
 
@@ -45,11 +45,11 @@ Das Netzwerklayout ist für alle Aufgaben identisch:
 
 ## Gelöste Files für das Troubleshooting
 
-1. [Netzwerk-Fehler-1]()
-2. [Netzwerk-Fehler-2]()
-3. [Netzwerk-Fehler-3]()
-4. [Netzwerk-Fehler-4]()
-5. [Netzwerk-Fehler-5]()
+1. [Netzwerk-Fehler-1](https://github.com/erionreci-5/M129/blob/main/Bilder/Netzwerk-Fehler-1-gel%C3%B6st.fls)
+2. [Netzwerk-Fehler-2](https://github.com/erionreci-5/M129/blob/main/Bilder/Netzwerk-Fehler-2-gel%C3%B6st.fls)
+3. [Netzwerk-Fehler-3](https://github.com/erionreci-5/M129/blob/main/Bilder/Netzwerk-Fehler-3-gel%C3%B6st.fls)
+4. [Netzwerk-Fehler-4](https://github.com/erionreci-5/M129/blob/main/Bilder/Netzwerk-Fehler-4-gel%C3%B6st.fls)
+5. [Netzwerk-Fehler-5](https://github.com/erionreci-5/M129/blob/main/Bilder/Netzwerk-Fehler-5-gel%C3%B6st.fls)
 
 ### Quellen
 - Fragen an Gabriel Marki
