@@ -13,13 +13,13 @@ Sie kennen und verstehen die wesentlichen Funktionen von VLAN und können eine k
 
 Nachdem Sie nun das LAN der Firma mit den entsprechenden VLAN’s (unterschiedliche Broadcast-Domains) konfiguriert haben, setzen Sie sich mit dem zweiten Schritt – dem Routing – auseinander. Damit die Mitarbeiter auch abteilungsübergreifend kommunizieren und in’s WAN können, muss auf Layer 3 noch ein korrektes Routing ermöglicht werden. Konfigurieren Sie den Router so, dass VLAN-Übergreifend und auch über den Router hinweg kommuniziert werden kann.<br>
 
-![VLAN Netzwerk 2](3-9_VLAN_netzwerk.jpg)
+![VLAN Netzwerk 2](https://github.com/erionreci-5/M129/blob/main/Bilder/3-9_VLAN_netzwerk.jpg)
 
 
-Dieser Auftrag wird mithilfe von dem [Textdokument](CISCO_PKT_Kommandos.txt), welches von Herr Callisto freigegeben wurde durchgeführt.
+Dieser Auftrag wird mithilfe von dem [Textdokument](https://github.com/erionreci-5/M129/blob/main/Bilder/CISCO_PKT_Kommandos%20(1).txt), welches von Herr Callisto freigegeben wurde durchgeführt.
 
 
 ## Abgabe:
 -  Live-Demo bei der LP (5-10’)
 
-Dies ist mein gelöstes [File](N3_9-Auftrag.pkt).
+Dies ist mein gelöstes [File](https://github.com/erionreci-5/M129/blob/main/Bilder/N3_9-Auftrag.pkt).
