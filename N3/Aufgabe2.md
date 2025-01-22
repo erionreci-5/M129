@@ -35,24 +35,24 @@ Das Netzwerklayout ist für alle Aufgaben identisch:
 
 **Gefundene Fehler (und Korrekturen) für die einzelnen Aufgaben**
 
-| **Filename**          | **Gefundener Fehler, ausgeführte Korrektur**                                                              |
-|-----------------------|-----------------------------------------------------------------------------------------------------------|
-| Netzwerk-Fehler-1.fls | Gateway fehlt bei beiden Geräten, Gateway 192.168.4.1 hinzugefügt                                         |
-| Netzwerk-Fehler-1.fls | Keine Route für 192.168.4.1 bei RT-1, Route für 192.168.4.1 hinzugefügt                                   |
-| Netzwerk-Fehler-2.fls | RT-2 hat Kabel von RT-1 und RT-3 vertauscht, Kabelm wieder vertauscht                                     |
-| Netzwerk-Fehler-2.fls | Switch von Netz 3 ist an falscher Schnittstelle angeschlossen, Switch umgesteckt                          |
-| Netzwerk-Fehler-3.fls | Allgemeine IP von RT-3 ist falsch, Anstelle von 192.168.2.1 10.1.0.2                                      |
-| Netzwerk-Fehler-3.fls | Im RT-1 in der Route für Netze 1, 2 & 3 ist ein falsches "Nächstes Gateway", anstelle 10.2.1.1 10.2.0.1   |
-| Netzwerk-Fehler-3.fls | Im RT-1 in der Route für Netze 1, 2 & 3 ist ein falsches "Über Schnittstelle", anstelle 10.2.9.2 10.2.0.2 |
-| Netzwerk-Fehler-4.fls | RT-1 ist ein Switch und kein Router, Router mit richtigen Interfaces eingebaut                            |
+| **Filename**          | **Gefundener Fehler, ausgeführte Korrektur**                                                                                                |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Netzwerk-Fehler-1.fls | Gateway fehlt bei beiden Geräten, Gateway 192.168.4.1 hinzugefügt                                                                           |
+| Netzwerk-Fehler-1.fls | Keine Route für 192.168.4.1 bei RT-1, Route für 192.168.4.1 hinzugefügt                                                                     |
+| Netzwerk-Fehler-2.fls | RT-2 hat Kabel von RT-1 und RT-3 vertauscht, Kabel wieder vertauscht                                                                        |
+| Netzwerk-Fehler-2.fls | Switch von Netz 3 ist an falscher Schnittstelle angeschlossen, Switch umgesteckt                                                            |
+| Netzwerk-Fehler-3.fls | Allgemeine IP von RT-3 ist falsch, Anstelle von 192.168.2.1 sollte die IP 10.1.0.2 sein                                                     |
+| Netzwerk-Fehler-3.fls | Im RT-1 in der Route für Netze 1, 2 & 3 ist ein falsches "Nächstes Gateway (Weiterungstabelle)", anstelle 10.2.1.1 sollte die IP 10.2.0.1   |
+| Netzwerk-Fehler-3.fls | Im RT-1 in der Route für Netze 1, 2 & 3 ist ein falsches "Über Schnittstelle (Weiterungstabelle)", anstelle 10.2.9.2 sollte die IP 10.2.0.2 |
+| Netzwerk-Fehler-4.fls | RT-3 ist ein Switch und kein Router, Router mit richtigen Interfaces eingebaut, Wartungstabelle angepasst                                   |
 
 
 ## Gelöste Files für das Troubleshooting
 
-1. [Netzwerk-Fehler-1]()
-2. [Netzwerk-Fehler-2]()
-3. [Netzwerk-Fehler-3]()
-4. [Netzwerk-Fehler-4]()
+1. [Netzwerk-Fehler-1](https://github.com/erionreci-5/M129/blob/main/Bilder/netzwerk-fehler-1%20(1).fls)
+2. [Netzwerk-Fehler-2](https://github.com/erionreci-5/M129/blob/main/Bilder/netzwerk-fehler-2%20(1).fls)
+3. [Netzwerk-Fehler-3](https://github.com/erionreci-5/M129/blob/main/Bilder/netzwerk-fehler-3%20(1).fls)
+4. [Netzwerk-Fehler-4](https://github.com/erionreci-5/M129/blob/main/Bilder/netzwerk-fehler-4%20(1).fls)
 
 ## Quellen
 
