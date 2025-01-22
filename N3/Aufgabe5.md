@@ -27,7 +27,7 @@ zur Verfügung. Für die Internetleitung erhalten wir vom ISP die statische IP-A
 
 **Situations- und Netzwerkplan**
 
-![Netzwerkplan](P3_5_netzwerk_800.jpg)
+![Netzwerkplan](https://github.com/erionreci-5/M129/blob/main/Bilder/P3_5_netzwerk_800.jpg)
 
 ## 1. Teilauftrag (Theorie)
 
@@ -66,7 +66,7 @@ Erstellen Sie für die Firma **Go-IT** einen IP-Plan mit folgenden Teil-Aufgaben
 
 ### Grafische Darstellung (Kreis)
 
-![Diagramm](Diagramm.png)
+![Diagramm](https://github.com/erionreci-5/M129/blob/main/Bilder/Diagramm%20(1).png)
 
 ---
 
@@ -106,17 +106,12 @@ Erstellen Sie für die Firma **Go-IT** einen IP-Plan mit folgenden Teil-Aufgaben
 |--------|-------|-------|---------|
 | (I) 192.168.100.0 /23  | 92.2.50.102 | 0 | s0 |
 
-## 2. Teilauftrag (Praxis)
-Setzen Sie diese Netzwerkumgebung mit dem CISCO Packet Tracer um. Nutzen Sie dabei DIESE VORLAGE. Sie müssen **keine** weiteren Geräte anschliessend. Die Namen der Geräte sind bereits eingetragen. Sämtliche Konfigurationen fehlen noch. Achten Sie ausserdem darauf, dass diverse Netzwerkkarten noch eingeschaltet werden müssen, damit sie überhaupt funktionieren.
-- [CISCO Packet Tracer Vorlage](Vorlage.pkt)
-
-
 
 ## Abgabe:
 - Dokumentation mit allen Angaben zum Netzwerk
 - Live-Demo bei der LP - Doku und CISCO PT (10’)
 
-Dies ist mein gelöstes [File](N3_5-Auftrag.pkt).
+Dies ist mein gelöstes [File](https://github.com/erionreci-5/M129/blob/main/Bilder/N3_5-Auftrag.pkt).
 
 ## Quellen
 
