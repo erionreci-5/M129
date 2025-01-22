@@ -8,7 +8,7 @@ Drei Subnetze im /24er Bereich werden mit zwei Routern getrennt. Leider funktion
 
 Das Netzwerklayout sieht wie folgt aus
 
-![Netzwerkplan](netzwerkplan_800.png)
+![Netzwerkplan](https://github.com/erionreci-5/M129/blob/main/Bilder/netzwerkplan_800.png)
 
 ## Auftrag
 
@@ -18,10 +18,6 @@ Das Netzwerklayout sieht wie folgt aus
 -   Zusätzlich halten Sie die **gefundenen Fehler und deren Behebung** in der separaten Tabelle fest.
 - Nachdem Sie alles korrekt konfiguriert und erfolgreich getestet haben, zegen Sie Ihre finale Version dem Coach/Lehrer (Live-Demo).
 
-
-## Genutzes Filius File
-
-Für diese Aufgabe wurde folgendes [Filius File](01_bigmess.fls) genutzt.
 
 ### Gefundene Fehler
 
@@ -40,7 +36,7 @@ Für diese Aufgabe wurde folgendes [Filius File](01_bigmess.fls) genutzt.
 | Router 2            | Route zu 192.168.1.0/24 Netz fehlt, Route hinzugefügt                                                                           |
 
 
-Das gelöste File finden Sie [hier.](01_bigmess-gelöst.fls)
+Das gelöste File finden Sie [hier.](https://github.com/erionreci-5/M129/blob/main/Bilder/01_bigmess.fls)
 
 ## Quellen
 
