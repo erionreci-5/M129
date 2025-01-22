@@ -1,0 +1,186 @@
+M129 VLAN CISCO Packet Tracer
+=============================
+
+
+Switch auf der linken Seite:
+---------------------------
+
+Config / VLAN Database
+
+  VLAN Number:  10
+  VLAN Name:    VLAN10
+
+  VLAN Number:  20
+  VLAN Name:    VLAN20
+
+  VLAN Number:  30
+  VLAN Name:    VLAN30
+
+  VLAN Number:  40
+  VLAN Name:    VLAN40
+
+
+Nun noch auf den Ports die zu den 8 PCs gehoeren, das jeweilige VLAN auswaehlen wie folgt am Beispiel PC11:
+Config / INTERFACE / FastEthernet0/1  (Pulldown Access bei Port Status und dann bei VLAN Pulldown 10 auswaehlen
+
+
+PC11 0/1 VLAN10		PC31 0/5 VLAN30
+PC12 0/2 VLAN10		PC32 0/6 VLAN30
+
+
+PC21 0/3 VLAN20		PC41 0/7 VLAN40
+PC22 0/4 VLAN20		PC42 0/8 VLAN40
+
+
+Nun Netzwerkschnittstelle zum Router auf "Trunk" setzen (alle Packete werden hier weitergeleitet)
+Interface / FastEthernet0/20  --> Trunk (Pulldown bei Port Status)
+
+
+Danach auf allen PCs IP-Adresse, Subnetzmaske und Default-Gateway setzen. Beispiel PC11:
+IP-Adresse         10.0.0.11 
+Subnetzmaske       255.255.255.0
+Default Gateway:   10.0.0.1          <-- Muss gesetzt sein, sonst gehts nicht
+
+
+Router:
+-------
+
+Wichtig!!! Der Router selber braucht keine IP-Adresse und auch keine Subnetzmaske,
+weil die beiden Netzwerkkarten darin mit mit Tagged VLANS (Standard IEEE 802.1q) enkapsuliert werden
+Im Ethernet-Frame sind 4 Bytes dafuer reserviert -> davon 12Bits fuer die VLAN-ID
+
+
+Config / Switching / VLAN Database
+  
+  VLAN Number:  10
+  VLAN Name:    VLAN10
+
+  VLAN Number:  20
+  VLAN Name:    VLAN20
+
+  VLAN Number:  30
+  VLAN Name:    VLAN30
+
+  VLAN Number:  40
+  VLAN Name:    VLAN40
+
+  VLAN Number:  50	<-- Fuer die zweite Netzwerkkarte (Aufgabe 2)
+  VLAN Name:    VLAN50
+
+
+
+
+...dann ins CLI wechseln, um Enkapsulierung der VLANs 10/20/30/40 auf der Netzwerkkarte g 0/0 zu aktivieren,
+dem entsprechenden Subnetz zuzuweisen und die zugehoerige Gateway-IP-Adresse inkl. Subnetz zu konfigurieren
+
+
+Router(vlan)# exit
+
+Router# configure terminal
+
+Router(config)# interface g 0/0.10				<- VLAN10
+
+Router(config-subif)# encapsulation dot1q 10			
+
+Router(config-subif)# ip address 10.0.0.1 255.255.255.0
+
+Router(config-subif)# exit
+
+
+Router(config)# interface g 0/0.20				<- VLAN20
+
+Router(config-subif)# encapsulation dot1q 20
+
+Router(config-subif)# ip address 192.168.10.1 255.255.255.0
+
+
+Router(config)# interface g 0/0.30				<- VLAN30
+
+Router(config-subif)# encapsulation dot1q 30
+
+Router(config-subif)# ip address 172.16.0.1 255.255.255.0
+
+
+Router(config)# interface g 0/0.40				<- VLAN40
+
+Router(config-subif)# encapsulation dot1q 40
+
+Router(config-subif)# ip address 192.168.100.1 255.255.255.0
+
+
+
+*********************************************
+
+
+
+
+
+Switch auf der rechten Seite:
+---------------------------
+
+Config / VLAN Database
+
+  VLAN Number:  50
+  VLAN Name:    VLAN50
+
+
+Nun noch auf den Ports die zu den 2 PCs gehoeren, das jeweilige VLAN auswaehlen wie folgt am Beispiel PC51:
+Config / INTERFACE / FastEthernet0/1  (Pulldown Access bei Port Status und dann bei VLAN Pulldown 50 auswaehlen
+
+
+PC51 0/1 VLAN50
+PC52 0/2 VLAN50
+
+
+Nun Netzwerkschnittstelle zum Router auf "Trunk" setzen (alle Packete werden hier weitergeleitet)
+Interface / FastEthernet0/20  --> Trunk (Pulldown bei Port Status)
+
+
+Danach auf beiden PCs IP-Adresse, Subnetzmaske und Default-Gateway setzen. Beispiel PC51:
+IP-Adresse         192.168.1.51 
+Subnetzmaske       255.255.255.0
+Default Gateway:   192.168.1.1          <-- Muss gesetzt sein, sonst gehts nicht
+
+
+
+Router:  <--- Diesmal fuer Interface g 0/1
+-------
+
+Gleich wie weiter oben: Der Router selber braucht keine IP-Adresse und auch keine Subnetzmaske,
+weil die beiden Netzwerkkarten darin mit mit Tagged VLANS (Standard IEEE 802.1q) enkapsuliert werden
+Im Ethernet-Frame sind 4 Bytes dafuer reserviert -> davon 12Bits fuer die VLAN-ID
+
+
+Config / Switching / VLAN Database
+
+  VLAN Number:  50	<-- Wurde schon weiter oben erstellt und ist vorhanden - pruefen in VLAN-Database 
+  VLAN Name:    VLAN50
+
+
+
+...dann ins CLI wechseln, um Enkapsulierung des VLANs 50 auf der Netzwerkkarte g 0/1 zu aktivieren,
+das entsprechenden Subnetz zuzuweisen und die zugehoerige Gateway-IP-Adresse inkl. Subnetz zu konfigurieren
+
+
+Router(vlan)# exit
+
+Router# configure terminal
+
+Router(config)# interface g 0/1.50				<- VLAN50
+
+Router(config-subif)# encapsulation dot1q 50			
+
+Router(config-subif)# ip address 192.168.1.1 255.255.255.0
+
+Router(config-subif)# exit
+
+
+
+
+
+
+
+
+
+
+
