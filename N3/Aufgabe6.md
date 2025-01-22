@@ -25,18 +25,8 @@ zur Verfügung. Die Adressen zum  ISP sind ebenfalls darin enthalten und sollen 
 
 **Situations- und Netzwerkplan**
 
-![Netzwerkplan](P3_6_netzwerk_1000.jpg)
+![Netzwerkplan](https://github.com/erionreci-5/M129/blob/main/Bilder/P3_6_netzwerk_1000.jpg)
 
-## 1. Teilauftrag (Theorie)
-
-Erstellen Sie für die Firma **Global Tech AG** zuerst einen klaren und fehlerfreien IP-Plan mit folgenden Teil-Aufgaben. Bei jeder Tabelle weiter unten ist **die erste Zeile** als Beispiel ausgefüllt.
-
-- Laden Sie [**DIESES Excel-Sheet**](P3_6_Netzwerk-Einteilung.xlsx) runter und...
-    - Teilen Sie das erhaltene Netz in passende **Subnetze** auf.
-    - Füllen Sie es gemäss den Vorgaben elektronisch korrekt aus, indem Sie die **Netzadressen**, **Netzmasken** und **Broadcastadressen** bestimmen (Tabelle unten).
-    - Schiessen Sie einen Screenshot der Subnetze von **Netzwerk B** (US) und **Netzwerk C** (EMEA). Ergänzen Sie diesen in Ihrer Dokumentation mit entsprechendem Text.
-    - Teilen Sie den **Routerinterfaces IP-Adressen** zu (Tabelle unten).
-    - Erstellen Sie die **Routingtabellen** für **Router A**, **Router B**, **Router C** und **Router ISP** (Tabelle unten)
 
 
 ### Netzgrössen
@@ -66,7 +56,7 @@ Erstellen Sie für die Firma **Global Tech AG** zuerst einen klaren und fehlerfr
 
 ### Grafische Darstellung (Kreis)
 
-![Diagramm](Diagramm.png)
+![Diagramm](https://github.com/erionreci-5/M129/blob/main/Bilder/Diagramm%20(2).png)
 
 
 ---
@@ -127,20 +117,14 @@ Erstellen Sie für die Firma **Global Tech AG** zuerst einen klaren und fehlerfr
 
 
 
-## 2. Teilauftrag (Praxis)
-Setzen Sie diese Netzwerkumgebung mit dem CISCO Packet Tracer um. Nutzen Sie dabei die unten verlinkte Vorlage. Sie müssen **keine** weiteren Geräte anschliessend. Die Namen der Geräte sind bereits eingetragen. Sämtliche Konfigurationen fehlen noch. Achten Sie ausserdem darauf, dass diverse Netzwerkkarten noch eingeschaltet werden müssen, damit sie überhaupt funktionieren.
-- [CISCO Packet Tracer Vorlage](Vorlage.pkt)
-
-
-
 ### Abgabe:
 - Dokumentation mit allen Angaben zum Netzwerk
 - Live-Demo bei der LP - Doku und CISCO PT (10’)
 
 
-Dies ist mein gelöstes [File](N3_6-Auftrag.pkt).
+Dies ist mein gelöstes [File](https://github.com/erionreci-5/M129/blob/main/Bilder/N3_6-Auftrag.pkt).
 
-Das gelöste Excel File ist [hier](P3_6_Netzwerk-Einteilung-gelöst.xlsx).
+Das gelöste Excel File ist [hier](https://github.com/erionreci-5/M129/blob/main/Bilder/P3_6_Netzwerk-Einteilung-gel%C3%B6st.xlsx).
 
 ## Quellen
 
