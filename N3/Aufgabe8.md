@@ -12,15 +12,15 @@ Sie kennen und verstehen die wesentlichen Funktionen von VLAN und können eine k
 
 Sie haben festgestellt, dass Ihr lokales Netzwerk zu bestimmten Tageszeiten eine hohe Last aufweist. Damit verbunden sind lästige Performance-Probleme. Sie haben sich für eine VLAN-Lösung entschieden, um den Netzwerk-Traffic der Abteilungen besser aufzuteilen (Broadcast-Domänen pro Abteilung). Sie haben bereits ein Design erstellt, welches diesen Anforderungen gerecht werden soll (auf der nächsten Seite abgebildet). Bei dieser ersten Übung geht es darum, dass die VLANs so aufgebaut werden, dass nur die Mitarbeiter derselben Abteilungen miteinander kommunizieren können. VLAN 10 und VLAN 20 können sich also **noch nicht** gegenseitig pingen.<br>
 
-![VLAN Netzwerk 1](01_VLAN_netzwerk.jpeg)
+![VLAN Netzwerk 1](https://github.com/erionreci-5/M129/blob/main/Bilder/01_VLAN_netzwerk.jpeg)
 
 
-Dieser Auftrag wird mithilfe von dem [Textdokument](CISCO_PKT_Kommandos.txt), welches von Herr Callisto freigegeben wurde durchgeführt.
+Dieser Auftrag wird mithilfe von dem [Textdokument](https://github.com/erionreci-5/M129/blob/main/Bilder/CISCO_PKT_Kommandos.txt), welches von Herr Callisto freigegeben wurde durchgeführt.
 
 
 ## Abgabe:
 -  Live-Demo bei der LP (5-10’)
 
-Dies ist mein gelöstes [File](N3_8-Auftrag.pkt).
+Dies ist mein gelöstes [File](https://github.com/erionreci-5/M129/blob/main/Bilder/N3_8-Auftrag.pkt).
 
 
